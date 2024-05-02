@@ -41,16 +41,15 @@ export default function Page() {
                     Free Accounting Software
                 </Link>
             </section>
-            {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
-                </section>
-            )}
-            <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
+            <section>
+                <h3>Free Accounting Software: A Small Business's Secret Weapon</h3>
+                <p>For any small business owner, keeping your finances in order is crucial. But between the marketing, the sales, and the product creation, wrestling with spreadsheets can feel like a never-ending chore. That's where free accounting software comes in – a powerful tool that can save you time, money, and a whole lot of stress.</p>
+                <Link
+                    href="https://gimbla.com/single-touch-payroll"
+                    className="btn btn-lg btn-primary sm:btn-wide"
+                >
+                    Gimbla Payroll
+                </Link>
             </section>
             {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
