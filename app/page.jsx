@@ -41,6 +41,11 @@ export default function Page() {
                     Free Accounting Software
                 </Link>
             </section>
+            <section className="flex flex-col gap-4">
+                <Markdown content={preDynamicContentExplainer} />
+                <RandomQuote />
+                <Markdown content={postDynamicContentExplainer} />
+            </section>
             <section>
                 <Link
                     href="https://gimbla.com/single-touch-payroll"
