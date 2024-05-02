@@ -35,10 +35,10 @@ export default function Page() {
                 <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
                 <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
                 <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
+                    href="https://gimbla.com/free-accounting-software"
                     className="btn btn-lg btn-primary sm:btn-wide"
                 >
-                    Read the Docs
+                    Free Accounting Software
                 </Link>
             </section>
             {!!ctx && (
