@@ -42,7 +42,7 @@ export default function Page() {
                 </Link>
             </section>
             <section>
-                <h3>Free Accounting Software: A Small Business's Secret Weapon</h3>
+                <h3>Free Accounting Software: A Small Business&apos;s Secret Weapon</h3>
                 <p>For any small business owner, keeping your finances in order is crucial. But between the marketing, the sales, and the product creation, wrestling with spreadsheets can feel like a never-ending chore. That's where free accounting software comes in – a powerful tool that can save you time, money, and a whole lot of stress.</p>
                 <Link
                     href="https://gimbla.com/single-touch-payroll"
